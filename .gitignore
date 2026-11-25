@@ -1,0 +1,28 @@
+# Python & Virtual Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Datasets (too large for GitHub)
+chest-xray-pneumonia/
+chest_xray/
+data/
+
+# Model Checkpoints & Outputs (large binary weights)
+*.h5
+*.hdf5
+*.tflite
+*.pb
+*.onnx
+outputs/
+
+# Logs & OS Files
+*.log
+.DS_Store
+Thumbs.db
